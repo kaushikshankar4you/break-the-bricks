@@ -40,7 +40,8 @@ public class Game extends JPanel {
 		setFocusable(true);
 	}
 	
-	public void generate() {
+	public void generate()
+	{
 		int x = reference.width-10;
 		int y = reference.height;
 		int row = 1;
@@ -148,7 +149,7 @@ public class Game extends JPanel {
 			g2d.drawString("YOU WON!!", frameX/2, frameY/2);
 		}
 		if (ball.state==false) {
-			g2d.drawString("You Lose :C", frameX/2, frameY/2);
+			g2d.drawString("You Lose. Try again!!", frameX/2, frameY/2);
 		}
 		
 	}
