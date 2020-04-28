@@ -48,6 +48,7 @@ public class Brick {
 			g2d.fillRect(x,y,width,height);
 			g2d.setColor(Color.black);
 			g2d.drawRect(x,y,width,height);
+
 		}
 	}
 	
