@@ -38,13 +38,13 @@ public class Brick {
 			if (colNum==0) g2d.setColor(Color.RED);
 			else if (colNum==1) g2d.setColor(Color.BLUE);
 			else if (colNum==2) g2d.setColor(Color.CYAN);
-			else if (colNum==3) g2d.setColor(Color.gray);
-			else if (colNum==4) g2d.setColor(Color.GREEN);
-			else if (colNum==5) g2d.setColor(Color.magenta);
-			else if (colNum==6) g2d.setColor(Color.ORANGE);
+			else if (colNum==3) g2d.setColor(Color.GRAY);
+			else if (colNum==4) g2d.setColor(Color.YELLOW);
+			else if (colNum==5) g2d.setColor(Color.MAGENTA);
+			else if (colNum==6) g2d.setColor(Color.WHITE);
 			else if (colNum==7) g2d.setColor(Color.PINK);
-			else if (colNum==8) g2d.setColor(Color.YELLOW);
-			else if (colNum==9) g2d.setColor(Color.WHITE);
+			else if (colNum==8) g2d.setColor(Color.GREEN);
+			else if (colNum==9) g2d.setColor(Color.ORANGE);
 			
 			g2d.fillRect(x,y,width,height);
 			g2d.setColor(Color.black);
