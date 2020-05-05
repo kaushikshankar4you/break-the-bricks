@@ -32,6 +32,7 @@ public class Brick {
 	}
 	
 	public void draw(Graphics2D g2d) {
+
 		if (state) {
 			if (colNum==6) colNum = 0;
 			if (colNum==0) g2d.setColor(Color.RED);
