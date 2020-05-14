@@ -7,7 +7,7 @@ import java.awt.event.KeyListener;
  *
  * Game Class
  *
- * @author kaushik shankar
+ * @author Kaushik shankar
  */
 
 public class Game extends JPanel {
